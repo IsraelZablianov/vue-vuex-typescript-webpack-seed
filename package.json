@@ -1,0 +1,41 @@
+{
+  "name": "vue-vuex-typescript-webpack-seed",
+  "version": "1.0.0",
+  "private": true,
+  "description": "An actual working seed of vue, vuex, typescript and webpack",
+  "main": "index.html",
+  "scripts": {
+    "build": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server"
+  },
+  "keywords": [],
+  "author": {
+    "name": "Israel Zablianov",
+    "url": "https://github.com/IsraelZablianov/vue-vuex-typescript-webpack-seed"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "vue": "^2.5.2",
+    "vuex": "^3.0.1",
+    "vue-property-decorator": "^6.0.0",
+    "vuex-typescript": "^3.0.2"
+  },
+  "devDependencies": {
+    "@types/node": "^9.4.6",
+    "copy-webpack-plugin": "^4.5.0",
+    "css-loader": "^0.28.10",
+    "file-loader": "^1.1.11",
+    "node-sass": "^4.7.2",
+    "sass-loader": "^6.0.7",
+    "style-loader": "^0.20.2",
+    "ts-loader": "^2.3.7",
+    "typescript": "^2.3.2",
+    "url-loader": "^1.0.1",
+    "vue-class-component": "^6.0.0",
+    "vue-loader": "^12.0.3",
+    "vue-template-compiler": "^2.5.2",
+    "webpack": "^2.7.0",
+    "webpack-dev-server": "^2.11.1"
+  }
+}
