@@ -35,8 +35,6 @@ export const helloModule = {
 
 const { commit, read, dispatch } = getStoreAccessors<HelloState, GlobalState>("");
 
-const getters = helloModule.getters;
-
 const helloAccessor = {
     enthusiasmLevel: read(helloModule.getters.getEnthusiasmLevel),
     increment: commit(helloModule.mutations.increment), 
