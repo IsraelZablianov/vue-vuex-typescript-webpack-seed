@@ -45,10 +45,8 @@ export default class HelloWord extends Vue {
     text-align: center;
     margin: 20px;
     font-size: 48px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
-  }
-  
-.hello {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
     button {
         margin-left: 25px;
         margin-right: 25px;
@@ -56,4 +54,5 @@ export default class HelloWord extends Vue {
         min-width: 50px;
     }
 }
+
 </style>
